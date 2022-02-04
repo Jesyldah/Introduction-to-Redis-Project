@@ -57,7 +57,7 @@ for row in f:
   doc = dict(zip(header, row))
   doclist.append(doc)
 
-# We will use json for the bulk upload since the `hset` redis command overwrites data inserted individually
+# We will use json for the bulk upload since the `set` redis command overwrites data inserted individually
 import json
 
 # Define a variable for the redis documents key
