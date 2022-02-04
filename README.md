@@ -7,7 +7,7 @@ CSV file into a remote Redis database.
 
 **Data**
 
-The dummy CSV used contains data on terrorism and related offenses, scraped from websites and is saved in a csv file `dummy.csv`
+The dummy CSV used contains data on terrorism and related offenses, scraped from websites and saved in a csv file `dummy.csv`
 
 The data file is updated on a daily basis. We will use a delta of 1 day to demonstrate ***updating on redis***. The delta data is saved in the `dummy_update.csv` file
 
